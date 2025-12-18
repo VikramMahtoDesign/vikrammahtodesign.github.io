@@ -48,7 +48,22 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
   
 </div>
 
-<div class="row mt-5 justify-content-center"> <div class="col-sm-4 mb-3"> <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
+<div class="row mt-5 justify-content-center">
+
+  <div class="col-md-3 mb-3">
+    <a href="{{ '/experience/' | relative_url }}" style="text-decoration: none; color: inherit;">
+      <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+        <img src="{{ '/assets/img/card_experience.jpg' | relative_url }}" class="card-img-top p-3" alt="Experience" style="height: 150px; object-fit: contain;">
+        <div class="card-body text-center p-2">
+          <h4 class="card-title font-weight-bold mb-0">Experience</h4>
+          <p class="card-text text-muted small mt-1">Work History & CV</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-3 mb-3">
+    <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_projects.jpg' | relative_url }}" class="card-img-top p-3" alt="Projects" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
@@ -59,7 +74,8 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     </a>
   </div>
 
-  <div class="col-sm-4 mb-3"> <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
+  <div class="col-md-3 mb-3">
+    <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_blog.jpg' | relative_url }}" class="card-img-top p-3" alt="Blog" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
@@ -70,7 +86,8 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     </a>
   </div>
 
-  <div class="col-sm-4 mb-3"> <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
+  <div class="col-md-3 mb-3">
+    <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top p-3" alt="Teaching" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
