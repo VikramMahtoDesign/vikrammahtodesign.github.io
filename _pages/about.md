@@ -48,7 +48,7 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
   
 </div>
 
-<div class="row mt-5 justify-content-center"> <div class="col-md-3 mb-3"> <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
+<div class="row mt-5 justify-content-center"> <div class="col-sm-4 mb-3"> <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_projects.jpg' | relative_url }}" class="card-img-top p-3" alt="Projects" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
@@ -59,7 +59,7 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     </a>
   </div>
 
-  <div class="col-md-3 mb-3"> <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
+  <div class="col-sm-4 mb-3"> <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_blog.jpg' | relative_url }}" class="card-img-top p-3" alt="Blog" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
@@ -70,7 +70,7 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     </a>
   </div>
 
-  <div class="col-md-3 mb-3"> <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
+  <div class="col-sm-4 mb-3"> <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top p-3" alt="Teaching" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
@@ -110,13 +110,13 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
   /* 2. FORCE FULL WIDTH (The Fix for Empty Space) */
   @media (min-width: 900px) { 
     .container {
-      max-width: 70% !important;  /* Stretches content to the edges */
-      width: 70% !important;
+      max-width: 85% !important;  /* Stretches content to the edges */
+      width: 85% !important;
     }
     
     /* Adjusts the main content wrapper to allow full width */
     article.post {
-      max-width: 70% !important;
+      max-width: 85% !important;
     }
   }
 
@@ -126,7 +126,7 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     display: block;
     font-size: 20px;
     font-weight: 400;
-    color: #eaf6ff;
+    color: #0056b3;
     margin-bottom: 5px;
     line-height: 1.2;
   }
