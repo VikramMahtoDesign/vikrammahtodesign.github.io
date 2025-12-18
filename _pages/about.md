@@ -11,48 +11,43 @@ profile:
  
 ---
 
-Power Transformer Tank & External Design (up to 765 kV)
+I work on power transformer tank and external design (up to 765 kV), 
 
-CAD Automation & Standardization
-
-Technical Drawings & Documentations
+focusing on CAD automation, standardization, and technical drawings & documentation.
 
 <div class="mt-5">
   <h3 style="border-bottom: 2px solid #5cb85c; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
   
-  <div class="row mt-4">
-    
-    <div class="col-md-4 mb-4">
-      <h5 class="font-weight-bold">Languages & Automation</h5>
-      <ul style="list-style: none; padding-left: 0; font-size: 0.95rem;">
-        <li>• <span style="font-weight: 500;">C#</span> (NX Open)</li>
-        <li>• <span style="font-weight: 500;">C++</span> (Creo Toolkit)</li>
-        <li>• <span style="font-weight: 500;">Python</span></li>
-        <li>• <span style="font-weight: 500;">Pro/PROGRAM</span></li>
-      </ul>
-    </div>
-
-    <div class="col-md-4 mb-4">
-      <h5 class="font-weight-bold">Design (CAD)</h5>
-      <ul style="list-style: none; padding-left: 0; font-size: 0.95rem;">
+ <div class="row">
+    <div class="col-sm-4">
+      <h5 class="font-weight-bold">CAD & Design</h5>
+      <ul style="list-style-type: none; padding-left: 0;">
         <li>• Siemens NX</li>
         <li>• Creo Parametric</li>
         <li>• AutoCAD</li>
-        <li>• SolidWorks</li>
       </ul>
     </div>
 
-    <div class="col-md-4 mb-4">
-      <h5 class="font-weight-bold">Simulation & Tools</h5>
-      <ul style="list-style: none; padding-left: 0; font-size: 0.95rem;">
+    <div class="col-sm-4">
+      <h5 class="font-weight-bold">Simulation</h5>
+      <ul style="list-style-type: none; padding-left: 0;">
         <li>• ANSYS Workbench</li>
         <li>• Creo Simulate</li>
         <li>• Hypermesh</li>
-        <li>• Git & GitHub</li>
       </ul>
     </div>
-    
+
+    <div class="col-sm-4">
+      <h5 class="font-weight-bold">Automation</h5>
+      <ul style="list-style-type: none; padding-left: 0;">
+        <li>• C# (NX Open)</li>
+        <li>• Creo Toolkit (C++)</li>
+        <li>• Pro/PROGRAM</li>
+      </ul>
+    </div>
   </div>
+</div>
+  
 </div>
 
 <div class="row mt-5">
@@ -116,5 +111,12 @@ Technical Drawings & Documentations
     color: #6c757d;              /* Grey color */
     margin-bottom: 5px;          /* Space between this text and your name */
     line-height: 1.2;
+  }
+  /* 5. Move Profile Picture Up (Desktop Only) */
+  @media (min-width: 1200px) {
+    .profile {
+      margin-top: -240px !important; /* Pulls the image up. Increase/Decrease this number to fit. */
+      margin-right: 20px;            /* Adds a little space so it doesn't hit the scrollbar */
+    }
   }
 </style>
