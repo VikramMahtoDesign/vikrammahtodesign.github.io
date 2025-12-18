@@ -1,0 +1,24 @@
+# Main Navigation Bar
+main:
+  - title: About
+    url: /
+  
+  - title: Projects
+    url: /projects/
+    
+  - title: CV
+    url: /assets/pdf/example_pdf.pdf # Link to your Resume PDF
+    
+  - title: Teaching
+    url: /teaching/
+    
+  - title: Blog
+    url: /blog/
+
+# Dropdown Menu (optional - remove if you don't want it)
+#  - title: More
+#    submenus:
+#      - title: Publications
+#        url: /publications/
+#      - title: Repositories
+#        url: /repositories/
