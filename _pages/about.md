@@ -11,11 +11,7 @@ profile:
  
 ---
 
-I work on power transformer tank and external design (up to 765 kV), 
-
-focusing on CAD automation, standardization, and technical drawings &
-
-documentation.
+I work on power transformer tank and external design (up to 765 kV),focusing on CAD automation, standardization, and technical drawings & documentation.
 
 <div class="mt-5">
   <h3 style="border-bottom: 2px solid #5cb85c; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
@@ -56,9 +52,9 @@ documentation.
 
   <div class="col-sm-4 mb-3">
     <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
-      <div class="card h-100 shadow-sm" style="border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
-        <img src="{{ '/assets/img/card_projects.jpg' | relative_url }}" class="card-img-top" alt="Projects" style="height: 150px; object-fit: cover;">
-        <div class="card-body text-center p-3">
+      <div class="card h-100 shadow-sm" style="background-color: #f6ddfb; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+        <img src="{{ '/assets/img/card_projects.jpg' | relative_url }}" class="card-img-top p-3" alt="Projects" style="height: 150px; object-fit: contain;">
+        <div class="card-body text-center p-2">
           <h4 class="card-title font-weight-bold mb-0">Projects</h4>
           <p class="card-text text-muted small mt-1">Design Automation & CAD</p>
         </div>
@@ -68,9 +64,9 @@ documentation.
 
   <div class="col-sm-4 mb-3">
     <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
-      <div class="card h-100 shadow-sm" style="border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
-        <img src="{{ '/assets/img/card_blog.jpg' | relative_url }}" class="card-img-top" alt="Blog" style="height: 150px; object-fit: cover;">
-        <div class="card-body text-center p-3">
+      <div class="card h-100 shadow-sm" style="background-color: #f6ddfb; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+        <img src="{{ '/assets/img/card_blog.jpg' | relative_url }}" class="card-img-top p-3" alt="Blog" style="height: 150px; object-fit: contain;">
+        <div class="card-body text-center p-2">
           <h4 class="card-title font-weight-bold mb-0">Blog</h4>
           <p class="card-text text-muted small mt-1">Updates & Thoughts</p>
         </div>
@@ -80,45 +76,60 @@ documentation.
 
   <div class="col-sm-4 mb-3">
     <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
-      <div class="card h-100 shadow-sm" style="border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
-        <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top" alt="Teaching" style="height: 150px; object-fit: cover;">
-        <div class="card-body text-center p-3">
-          <h4 class="card-title font-weight-bold mb-0">Learning</h4>
+      <div class="card h-100 shadow-sm" style="background-color: #f6ddfb; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+        <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top p-3" alt="Teaching" style="height: 150px; object-fit: contain;">
+        <div class="card-body text-center p-2">
+          <h4 class="card-title font-weight-bold mb-0">Teaching</h4>
           <p class="card-text text-muted small mt-1">Tutorials & Guides</p>
         </div>
       </div>
     </a>
   </div>
 
+</div>
 
 
 <style>
-  /* 1. Make the background slightly grey to make cards pop */
+  <style>
+  /* 1. Background Colors */
   body {
-    background-color: #e3e8ee !important;
+    background-color: #f8f9fa !important;
   }
-
-
-  /* 3. Dark Mode fix */
   body.dark-mode {
     background-color: #121212 !important;
   }
 
-  /* 4. ADD THIS: "Hey there, I am" above your name */
+  /* 2. FORCE FULL WIDTH (The Fix for Empty Space) */
+  @media (min-width: 900px) { 
+    .container {
+      max-width: 95% !important;  /* Stretches content to the edges */
+      width: 95% !important;
+    }
+    
+    /* Adjusts the main content wrapper to allow full width */
+    article.post {
+      max-width: 100% !important;
+    }
+  }
+
+  /* 3. Intro Text */
   h1.post-title::before {
-    content: "Hey there, I am";  /* The text you want to add */
-    display: block;              /* Forces it to be on its own line above the name */
-    font-size: 20px;             /* Size of the small text */
-    font-weight: 400;            /* Normal font weight (not bold) */
-    color: #e222d3;              /* Grey color */
-    margin-bottom: 5px;          /* Space between this text and your name */
+    content: "Hey there, I am";
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 5px;
     line-height: 1.2;
   }
-  /* 5. Move Profile Picture Up (Desktop Only) */
+
+  /* 4. Profile Picture Position */
   @media (min-width: 1200px) {
     .profile {
-      margin-top: -150px !important; /* Pulls the image up. Increase/Decrease this number to fit. */
-      margin-right: 20px;            /* Adds a little space so it doesn't hit the scrollbar */
+      float: right;
+      margin-top: -150px !important; 
+      margin-right: 10px;
+      z-index: 10;
     }
   }
 </style>
