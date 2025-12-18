@@ -157,4 +157,32 @@ I work on Power Transformer Tank and External Design (up to 765 kV), focusing on
       z-index: 10;
     }
   }
+  /* 6. Navigation Bar Improvements */
+  
+  /* Make the bar taller */
+  .navbar {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  /* Style the links */
+  .navbar-nav .nav-item .nav-link {
+    font-size: 18px !important;       /* Bigger, easier to read */
+    font-weight: 500 !important;      /* Slightly thicker font */
+    margin-left: 15px !important;     /* Space between items */
+    margin-right: 15px !important;
+    color: #4a4a4a !important;        /* Dark Grey text (Professional) */
+    text-transform: capitalize !important; /* Forces "blog" -> "Blog" */
+  }
+
+  /* Color change on Hover */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff !important;        /* Turns Blue when you touch it */
+  }
+  
+  /* Highlight the "Active" page (Current Page) */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff !important;
+    font-weight: bold !important;
+  }
 </style>
