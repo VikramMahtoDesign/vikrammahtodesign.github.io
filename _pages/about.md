@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a>Mechanical Design Engineer</a>. 
+subtitle: <span style="color: #0056b3; font-weight: bold;">Mechanical Design Engineer</span>. 
 
 profile:
   align: right
@@ -14,7 +14,7 @@ profile:
 I work on power transformer tank and external design (up to 765 kV),focusing on CAD automation, standardization, and technical drawings & documentation.
 
 <div class="mt-5">
-  <h3 style="border-bottom: 2px solid #5cb85c; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
+  <h3 style="border-bottom: 2px solid #007bff;; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
   
  <div class="row">
     <div class="col-sm-4">
@@ -44,15 +44,12 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
       </ul>
     </div>
   </div>
-</div>
+
   
 </div>
 
-<div class="row mt-5">
-
-  <div class="col-sm-4 mb-3">
-    <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
-      <div class="card h-100 shadow-sm" style="background-color: #f6ddfb; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+<div class="row mt-5 justify-content-center"> <div class="col-md-3 mb-3"> <a href="{{ '/projects/' | relative_url }}" style="text-decoration: none; color: inherit;">
+      <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_projects.jpg' | relative_url }}" class="card-img-top p-3" alt="Projects" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
           <h4 class="card-title font-weight-bold mb-0">Projects</h4>
@@ -62,9 +59,8 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     </a>
   </div>
 
-  <div class="col-sm-4 mb-3">
-    <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
-      <div class="card h-100 shadow-sm" style="background-color: #f6ddfb; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+  <div class="col-md-3 mb-3"> <a href="{{ '/blog/' | relative_url }}" style="text-decoration: none; color: inherit;">
+      <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_blog.jpg' | relative_url }}" class="card-img-top p-3" alt="Blog" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
           <h4 class="card-title font-weight-bold mb-0">Blog</h4>
@@ -74,9 +70,8 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     </a>
   </div>
 
-  <div class="col-sm-4 mb-3">
-    <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
-      <div class="card h-100 shadow-sm" style="background-color: #f6ddfb; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
+  <div class="col-md-3 mb-3"> <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
+      <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top p-3" alt="Teaching" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
           <h4 class="card-title font-weight-bold mb-0">Teaching</h4>
@@ -88,16 +83,15 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
 
 </div>
 
-
 <div class="mt-5 mb-5 p-4 text-center" style="background-color: white; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
   <h3 class="font-weight-bold">Let's Connect</h3>
   <p class="text-muted">Open to opportunities in Mechanical Design & Automation.</p>
   
   <div class="mt-3">
-    <a href="mailto:your.email@example.com" class="btn btn-outline-primary mr-2" style="border-radius: 50px; padding: 10px 25px;">
+    <a href="mailto:vikrammahto129@gmail.com" class="btn btn-outline-primary mr-2" style="border-radius: 50px; padding: 10px 25px;">
       <i class="fas fa-envelope"></i> Email Me
     </a>
-    <a href="https://linkedin.com/in/yourprofile" class="btn btn-primary" style="border-radius: 50px; padding: 10px 25px;">
+    <a href="https://linkedin.com/in/vikram-mahto" class="btn btn-primary" style="border-radius: 50px; padding: 10px 25px;">
       <i class="fab fa-linkedin"></i> LinkedIn
     </a>
   </div>
@@ -116,13 +110,13 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
   /* 2. FORCE FULL WIDTH (The Fix for Empty Space) */
   @media (min-width: 900px) { 
     .container {
-      max-width: 95% !important;  /* Stretches content to the edges */
-      width: 95% !important;
+      max-width: 70% !important;  /* Stretches content to the edges */
+      width: 70% !important;
     }
     
     /* Adjusts the main content wrapper to allow full width */
     article.post {
-      max-width: 80% !important;
+      max-width: 70% !important;
     }
   }
 
@@ -132,7 +126,7 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     display: block;
     font-size: 20px;
     font-weight: 400;
-    color: #6c757d;
+    color: #eaf6ff;
     margin-bottom: 5px;
     line-height: 1.2;
   }
