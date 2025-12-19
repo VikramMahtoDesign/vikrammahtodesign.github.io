@@ -89,9 +89,9 @@ I work on Power Transformer Tank and External Design (up to 765 kV), focusing on
   <div class="col-md-3 mb-3">
     <a href="{{ '/teaching/' | relative_url }}" style="text-decoration: none; color: inherit;">
       <div class="card h-100 shadow-sm" style="background-color: #eaf6ff; border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
-        <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top p-3" alt="Teaching" style="height: 150px; object-fit: contain;">
+        <img src="{{ '/assets/img/card_teaching.png' | relative_url }}" class="card-img-top p-3" alt="Learning" style="height: 150px; object-fit: contain;">
         <div class="card-body text-center p-2">
-          <h4 class="card-title font-weight-bold mb-0">Teaching</h4>
+          <h4 class="card-title font-weight-bold mb-0">Learning</h4>
           <p class="card-text text-muted small mt-1">Tutorials & Guides</p>
         </div>
       </div>
