@@ -80,18 +80,18 @@ nav_order: 3
     
     <div class="col-md-7 p-4 d-flex flex-column justify-content-center">
       
-      <h3 style="color: #333; font-weight: 800;">Automated Tank Design System</h3>
+      <h3 style="color: #333; font-weight: 800;">CAD Library</h3>
       
       <div class="mb-3 mt-2">
         <span class="tech-badge">Creo Toolkit</span>
         <span class="tech-badge">C++</span>
+        <span class="tech-badge">Library</span>
         <span class="tech-badge">Automation</span>
       </div>
 
       <p style="color: #555; font-size: 15px; line-height: 1.6;">
-        Developed a custom plugin for Creo Parametric that automates the generation of 3D tank models. 
-        This tool reduced the design cycle time by <strong>40%</strong> and minimized human error in BOM generation.
-        It features a custom UI built with OTK.
+This video showcases a Creo Toolkit-based automation tool designed to centralize the CAD model library and streamline the design process. The tool enables automatic component assembly from a designated directory, eliminating manual navigation. It also allows users to move and delete components, ensuring design consistency.
+A key feature demonstrated is the automatic creation and removal of cutouts when assembling and deleting a component. While the demo uses a simple assembly, the tool is especially beneficial for larger, complex models.
       </p>
 
     </div>
@@ -114,29 +114,25 @@ nav_order: 3
     
     <div class="col-md-7 p-4 d-flex flex-column justify-content-center">
       
-      <h3 style="color: #333; font-weight: 800;">FEA Simulation Dashboard</h3>
+      <h3 style="color: #333; font-weight: 800;">AutoUnbend Using Creo Toolkit With Drawing Creation</h3>
       
       <div class="mb-3 mt-2">
-        <span class="tech-badge">Python</span>
-        <span class="tech-badge">Ansys API</span>
-        <span class="tech-badge">Flask</span>
+        <span class="tech-badge">Creo Toolkit</span>
+        <span class="tech-badge">C++</span>
+        <span class="tech-badge">Sheetmetals</span>
+        <span class="tech-badge">Drawing</span>
       </div>
 
       <p style="color: #555; font-size: 15px; line-height: 1.6;">
-        Created a web-based dashboard to visualize stress analysis results for power transformers. 
-        The system automatically pulls data from Ansys Workbench and generates compliance reports 
-        according to IEEE standards.
+        This tool, built using the Creo Toolkit API, automates the process of unbending bent plates and cylindrical turrets for manufacturing. It converts solid parts into sheet metal, unbends them.The tool also automates drawing creation and generates views of both the original and unbent parts, streamlining the workflow.
       </p>
 
-      <div class="mt-3">
-        <a href="#" class="btn btn-sm btn-outline-primary mr-2"><i class="fab fa-github"></i> View Code</a>
-      </div>
     </div>
 
     <div class="col-md-5">
       <div class="video-container">
         <iframe 
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" 
+          src="https://www.youtube.com/embed/b2cDPgZ1oqc" 
           title="Project Video" 
           allowfullscreen>
         </iframe>
