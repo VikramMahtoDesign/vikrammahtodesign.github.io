@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Key engineering and automation projects.
+description: Automation projects.
 nav: true
 nav_order: 3
 ---
@@ -99,7 +99,7 @@ nav_order: 3
     <div class="col-md-5">
       <div class="video-container">
         <iframe 
-          src="https://www.youtube.com/watch?v=OXruP7GIyoQ" 
+          src="https://www.youtube.com/embed/OXruP7GIyoQ" 
           title="Project Video" 
           allowfullscreen>
         </iframe>
