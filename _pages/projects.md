@@ -94,16 +94,16 @@ nav_order: 3
         It features a custom UI built with OTK.
       </p>
 
-      <div class="mt-3">
+     /* <div class="mt-3">
         <a href="#" class="btn btn-sm btn-outline-primary mr-2"><i class="fab fa-github"></i> View Code</a>
         <a href="#" class="btn btn-sm btn-outline-secondary"><i class="fas fa-file-alt"></i> Case Study</a>
-      </div>
+      </div> */
     </div>
 
     <div class="col-md-5">
       <div class="video-container">
         <iframe 
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" 
+          src="https://youtu.be/OXruP7GIyoQ" 
           title="Project Video" 
           allowfullscreen>
         </iframe>
