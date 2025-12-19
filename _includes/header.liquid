@@ -118,12 +118,38 @@
             {% endif %}
           {% endfor %}
           {% if site.search_enabled %}
-            <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button id="search-toggle" title="Search" onclick="openSearchModal()" style="
+                  background-color: #f1f3f5; 
+                  border: none; 
+                  border-radius: 6px; 
+                  padding: 6px 12px; 
+                  display: flex; 
+                  align-items: center; 
+                  cursor: pointer; 
+                  margin-top: 2px; /* Slight alignment adjustment */
+                  margin-left: 15px;
+                  height: 38px;
+                  transition: all 0.2s ease-in-out;">
+                
+                <i class="ti ti-search" style="color: #adb5bd; font-size: 14px; margin-right: 8px;"></i>
+                
+                <span style="color: #6c757d; font-size: 15px; font-weight: 400; margin-right: 25px;">Search</span>
+                
+                <span style="
+                    background-color: #ffffff; 
+                    border: 1px solid #dee2e6; 
+                    border-radius: 4px; 
+                    padding: 1px 5px; 
+                    font-size: 11px; 
+                    color: #adb5bd; 
+                    font-family: inherit;
+                    line-height: 1.2;">
+                  CTRL K
+                </span>
               </button>
             </li>
+          {% endif %}
           {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
