@@ -55,7 +55,7 @@ nav_order: 1
     <div class="row align-items-center mb-3">
       
       <div class="col-md-8 d-flex align-items-center">
-        
+        <a href="https://www.cgglobal.com" target="_blank" style="margin-right: 15px;">
         <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
         
         <a href="https://www.cgglobal.com" target="_blank" style="text-decoration: none;">
@@ -97,7 +97,7 @@ nav_order: 1
     <div class="row align-items-center mb-3">
       
       <div class="col-md-8 d-flex align-items-center">
-        
+        <a href="https://www.tbeaindia.com" target="_blank" style="margin-right: 15px;">
         <img src="{{ '/assets/img/Tbea.jpg' | relative_url }}" alt="TBEA" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
         
         <a href="https://www.tbeaindia.com" target="_blank" style="text-decoration: none;">
