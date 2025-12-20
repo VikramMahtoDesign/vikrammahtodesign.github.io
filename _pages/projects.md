@@ -32,7 +32,8 @@ nav_order: 3
   /* --- Project Card Styles --- */
   .project-card {
     background-color: #ffffff;
-    border: 1px solid #e0e0e0;
+    /* CHANGED: Updated border to match Experience page (Blue, 2px) */
+    border: 2px solid #007bff;
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
@@ -40,7 +41,7 @@ nav_order: 3
   .project-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    border-color: #007bff; /* Hover Blue Border */
+    /* Border is already blue, but we keep the shadow */
   }
   
   /* Tech Stack Badges */
