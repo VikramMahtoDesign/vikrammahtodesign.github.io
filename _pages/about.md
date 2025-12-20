@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<span style='color: #0056b3; font-weight: bold;'>Mechanical Design Engineer</span>"
+subtitle: "<span style='color: #007bff; font-weight: bold;'>Mechanical Design Engineer</span>"
 
 profile:
   align: right
@@ -143,7 +143,7 @@ I work on Power Transformer Tank and External Design (up to 765 kV), focusing on
     display: block;
     font-size: 20px;
     font-weight: 400;
-    color: #0056b3;
+    color: #007bff;
     margin-bottom: 5px;
     line-height: 1.2;
   }
