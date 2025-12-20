@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "Blog",
-          description: "",
+          description: "Thoughts on Engineering, Automation, and Life.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
