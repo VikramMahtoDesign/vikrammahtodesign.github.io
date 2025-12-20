@@ -28,36 +28,45 @@ nav_order: 1
     font-weight: bold !important;
   }
 
-  /* --- B. HEADER COMPACT FIX --- */
+  /* --- B. HEADER STYLE (Matches Projects/Blog) --- */
   header.post-header {
-    background-color: #eaf6ff; /* Light Blue */
-    padding: 17px !important;  /* Reduced Height (was 40px) */
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: left;
+    background-color: transparent !important; /* Removed Blue Box */
+    padding: 0 !important;
+    margin-bottom: 40px !important;
+    text-align: left !important; /* Left Aligned */
   }
   
   header.post-header h1.post-title {
     color: #333 !important;
-    font-weight: 800;
-    margin-bottom: 0 !important; /* Removes extra space below title */
+    font-weight: 400 !important; /* Non-Bold */
+    margin-bottom: 5px !important;
   }
   
-  /* Hides the description if it exists */
   header.post-header p.post-description {
-    display: none; 
+    color: #666 !important;
+    font-size: 16px !important;
+    font-weight: 400;
+  }
+
+  /* --- C. CARD HOVER EFFECT --- */
+  .experience-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .experience-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.15) !important;
   }
 </style>
 
-<div class="card mt-4 p-3 shadow-sm" style="border-radius: 8px; border: 1px solid #f0f0f0;">
+<div class="card experience-card mt-4 p-3 shadow-sm" style="border-radius: 12px; border: 2px solid #007bff;">
   <div class="card-body p-0">
     
     <div class="row align-items-center mb-3">
       
       <div class="col-md-8 d-flex align-items-center">
         <a href="https://www.cgglobal.com" target="_blank" style="margin-right: 15px;">
-        <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
-         </a>
+        <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain;">
+        </a>
         <a href="https://www.cgglobal.com" target="_blank" style="text-decoration: none;">
           <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">CG Power and Industrial Solutions Limited.</span>
         </a>
@@ -88,10 +97,7 @@ nav_order: 1
 </div>
 
 
-
-
-
-<div class="card mt-4 p-3 shadow-sm" style="border-radius: 8px; border: 1px solid #f0f0f0;">
+<div class="card experience-card mt-5 p-3 shadow-sm" style="border-radius: 12px; border: 2px solid #007bff;">
   <div class="card-body p-0">
     
     <div class="row align-items-center mb-3">
@@ -124,7 +130,7 @@ nav_order: 1
     </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
-      <i class="fas fa-calendar-alt mr-2"></i> July 2020 - Present &nbsp;|&nbsp; 
+      <i class="fas fa-calendar-alt mr-2"></i> July 2022 - Dec 2025 &nbsp;|&nbsp; 
       <i class="fas fa-map-marker-alt mr-2 ml-2"></i> Vadodara, India
     </div>
 
