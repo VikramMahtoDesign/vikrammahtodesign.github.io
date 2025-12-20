@@ -117,19 +117,4 @@ description: Technologies and tools I am currently exploring.
     </a>
   </div>
 
-  <div class="col-md-4 mb-4">
-    <a href="#" class="learning-card" style="opacity: 0.6; cursor: default;">
-      <div class="learning-img-container">
-         <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=600&q=80" alt="Python">
-      </div>
-      <div class="learning-body">
-        <span class="status-badge" style="background-color: #e2e3e5; color: #383d41;">Planned</span>
-        <h3 class="learning-title">Advanced Python</h3>
-        <p class="learning-text">
-          Future plans to dive deeper into data analysis libraries.
-        </p>
-      </div>
-    </a>
-  </div>
-
 </div>
