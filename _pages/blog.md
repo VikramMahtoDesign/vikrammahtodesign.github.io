@@ -29,21 +29,27 @@ description: Thoughts on Engineering, Automation, and Life.
     font-weight: bold !important;
   }
 
-  /* --- Header Tweaks (Subtitle) --- */
+  /* --- Header Tweaks (Left Aligned & Non-Bold) --- */
   header.post-header {
-    margin-bottom: 50px !important;
-    text-align: center;
+    margin-bottom: 40px !important;
+    text-align: left !important; /* Forces Left Alignment */
   }
+  
+  /* Target the main title "Blog" */
   header.post-header h1.post-title {
-    font-weight: 800;
+    font-weight: 400 !important; /* Non-Bold (Regular) */
     color: #333;
     margin-bottom: 5px;
   }
+  
+  /* Target the description/subtitle */
   header.post-header p.post-description {
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #666 !important;
     font-weight: 400;
-    display: block !important; /* Forces description to show */
+    font-style: italic;
+    display: block !important;
+    margin-top: 0px;
   }
 
   /* --- Blog Card Styles --- */
@@ -122,7 +128,7 @@ description: Thoughts on Engineering, Automation, and Life.
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-top: auto; /* Pushes link to bottom */
+    margin-top: auto;
   }
   .blog-link i {
     margin-left: 5px;
@@ -135,22 +141,6 @@ description: Thoughts on Engineering, Automation, and Life.
 
 
 <div class="row">
-
-  <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
-      <div class="blog-card">
-        <div class="blog-img-container">
-           <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Coding">
-        </div>
-        <div class="blog-body">
-          <span class="blog-category">Automation</span>
-          <h3 class="blog-title">Getting Started with Creo Toolkit</h3>
-          <span class="blog-date">Recent Post</span>
-          <span class="blog-link">Read Article <i class="fas fa-arrow-right"></i></span>
-        </div>
-      </div>
-    </a>
-  </div>
 
   <div class="col-md-4 mb-4">
     <a href="#" style="text-decoration: none;">
@@ -242,6 +232,22 @@ description: Thoughts on Engineering, Automation, and Life.
           <span class="blog-category">ISO Standards</span>
           <h3 class="blog-title">ISO 12944-1 & 2: Corrosion Protection for Steel Structure</h3>
           <span class="blog-date">Archive</span>
+          <span class="blog-link">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <a href="#" style="text-decoration: none;">
+      <div class="blog-card">
+        <div class="blog-img-container">
+           <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Coding">
+        </div>
+        <div class="blog-body">
+          <span class="blog-category">Automation</span>
+          <h3 class="blog-title">Getting Started with Creo Toolkit</h3>
+          <span class="blog-date">Recent Post</span>
           <span class="blog-link">Read Article <i class="fas fa-arrow-right"></i></span>
         </div>
       </div>
