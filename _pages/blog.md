@@ -32,17 +32,13 @@ description: Thoughts on Engineering, Automation, and Life.
   /* --- Header Tweaks (Left Aligned & Non-Bold) --- */
   header.post-header {
     margin-bottom: 40px !important;
-    text-align: left !important; /* Forces Left Alignment */
+    text-align: left !important;
   }
-  
-  /* Target the main title "Blog" */
   header.post-header h1.post-title {
-    font-weight: 400 !important; /* Non-Bold (Regular) */
+    font-weight: 400 !important;
     color: #333;
     margin-bottom: 5px;
   }
-  
-  /* Target the description/subtitle */
   header.post-header p.post-description {
     font-size: 16px !important;
     color: #666 !important;
@@ -55,13 +51,14 @@ description: Thoughts on Engineering, Automation, and Life.
   /* --- Blog Card Styles --- */
   .blog-card {
     background-color: #ffffff;
-    border: 2px solid #007bff; /* Signature Blue Border */
+    border: 2px solid #007bff;
     border-radius: 12px;
     overflow: hidden;
     height: 100%;
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
+    text-decoration: none; /* Removes underline */
   }
   
   .blog-card:hover {
@@ -143,7 +140,7 @@ description: Thoughts on Engineering, Automation, and Life.
 <div class="row">
 
   <div class="col-md-4 mb-4">
-    <a href="{{ '/2024/01/15/lifting-analysis/' | relative_url }}" style="text-decoration: none;">
+    <a href="{% post_url 2024-01-15-lifting-analysis %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=80" alt="FEA">
@@ -159,7 +156,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{% post_url 2023-11-20-austenitic-steel %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1535970793551-3b56795453b3?auto=format&fit=crop&w=600&q=80" alt="Steel">
@@ -175,7 +172,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{% post_url 2023-09-10-charpy-test %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1576400806041-b93a0447a12b?auto=format&fit=crop&w=600&q=80" alt="Testing">
@@ -191,7 +188,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{% post_url 2023-07-05-roarks-formulas %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&q=80" alt="Formulas">
@@ -207,7 +204,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{% post_url 2023-05-12-conservator-design %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1473642306788-b27b5003c267?auto=format&fit=crop&w=600&q=80" alt="Transformers">
@@ -223,7 +220,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{% post_url 2023-03-28-iso-12944 %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?auto=format&fit=crop&w=600&q=80" alt="Paint">
@@ -239,7 +236,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{% post_url 2025-12-18-creo-toolkit %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Coding">
