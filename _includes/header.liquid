@@ -1,3 +1,22 @@
+<style>
+  /* Force the Navigation Links to be Grey by default */
+  .navbar-nav .nav-item .nav-link {
+    color: #4a4a4a !important; 
+  }
+
+  /* Force the ACTIVE link (Current Page) to be BLUE */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff !important; /* Your signature Blue */
+    font-weight: 700 !important;
+  }
+  
+  /* Force the HOVER color to be BLUE */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff !important;
+  }
+</style>
+
+
 <header>
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
