@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+<style>
+  /* Force all images in the post to fit the width and look uniform */
+  article img {
+    width: 100%;            /* Forces image to take full width of container */
+    max-width: 100%;        /* Prevents it from going off-screen */
+    height: auto;           /* Maintains aspect ratio (doesn't stretch) */
+    border-radius: 8px;     /* Optional: Adds nice rounded corners */
+    margin-bottom: 20px;    /* Adds space below every image */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+  }
+</style>
 {% assign year = page.date | date: '%Y' %}
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
