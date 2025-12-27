@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Lifting Analysis of Transformer Tank Using Remote Points in ANSYS
-date: 2024-01-15 10:00:00
+date: 2025-01-15 
+permalink: /blog/lifting-analysis/
 description: A detailed guide on simulating suspended lifting scenarios for heavy transformer tanks using ANSYS Mechanical and Remote Points.
 tags: ansys fea engineering transformers lifting
 categories: engineering
