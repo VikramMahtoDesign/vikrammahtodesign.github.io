@@ -79,14 +79,6 @@ nav_order: 1
 
     <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
 
-  /*  <ul style="font-size: 15px; color: #444; line-height: 1.6;">
-      <li>Designed <strong>Power Transformer Tanks</strong> and external assemblies (conservator, cooler bank, piping) using <strong>Creo Parametric</strong>.</li>
-      <li>Validated structural integrity by conducting <strong>Finite Element Analysis (FEA)</strong> for pressure, vacuum, lifting, and jacking load cases.</li>
-      <li>Generated detailed manufacturing drawings, BOMs, and cable wiring diagrams; managed ERP material ordering.</li>
-      <li>Ensured design compliance with international standards such as <strong>CBIP, CEA, and IEC</strong>.</li>
-      <li>Resolved shop floor and site issues by collaborating with vendors, Quality, and Marketing teams to ensure seamless project execution.</li>
-      <li><strong>Tools:</strong> Creo Parametric, AutoCAD, FEA Tools.</li>
-    </ul>*/
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
       <i class="fas fa-calendar-alt mr-2"></i> Dec 2025 - Present &nbsp;|&nbsp; 
