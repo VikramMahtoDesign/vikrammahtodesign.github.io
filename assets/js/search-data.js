@@ -268,6 +268,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
+      },{id: "post-conservator-for-transformers-standards-amp-calculations",
+        
+          title: "Conservator for Transformers - Standards &amp; Calculations",
+        
+        description: "Sizing, standards (IEC, CBIP, CEA), and practical calculations for transformer conservator tanks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/conservator-design/";
+          
+        },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
         
           title: "a post with table of contents on a sidebar",
@@ -343,17 +354,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/roarks-formulas/";
-          
-        },
-      },{id: "post-placeholder-title",
-        
-          title: "Placeholder Title",
-        
-        description: "Content coming soon.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/conservator-design/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
