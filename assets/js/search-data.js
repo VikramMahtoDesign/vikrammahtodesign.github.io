@@ -213,6 +213,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/tikzjax/";
           
         },
+      },{id: "post-impact-test-charpy-v-notch-test",
+        
+          title: "Impact Test – Charpy V-Notch Test",
+        
+        description: "Understanding material toughness, the Charpy V-Notch test method, and the Ductile-to-Brittle Transition Temperature (DBTT).",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/charpy-test/";
+          
+        },
       },{id: "post-a-post-with-bibliography",
         
           title: "a post with bibliography",
@@ -310,17 +321,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/creo-toolkit/";
-          
-        },
-      },{id: "post-placeholder-title",
-        
-          title: "Placeholder Title",
-        
-        description: "Content coming soon.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/charpy-test/";
           
         },
       },{id: "post-placeholder-title",
