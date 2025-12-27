@@ -112,13 +112,24 @@ nav_order: 1
 
     <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
 
-    <ul style="font-size: 15px; color: #444; line-height: 1.6;">
+ <ul style="font-size: 15px; color: #444; line-height: 1.6;">
       <li>Designed <strong>Power Transformer Tanks</strong> and external assemblies (conservator, cooler bank, piping) using <strong>Creo Parametric</strong>.</li>
       <li>Validated structural integrity by conducting <strong>Finite Element Analysis (FEA)</strong> for pressure, vacuum, lifting, and jacking load cases.</li>
       <li>Prepared customer drawings, detailed manufacturing drawings, BOMs, and cable wiring diagrams; managed ERP material ordering.</li>
       <li>Ensured design compliance with international standards such as <strong>CBIP, CEA, and IEC</strong>.</li>
       <li>Resolved shop floor and site issues by collaborating with vendors, Quality, and Marketing teams to ensure seamless project execution.</li>
       <li><strong>Tools:</strong> Creo Parametric, AutoCAD, FEA Tools.</li>
+      
+      <li style="margin-top: 15px;"><strong>Key Projects:</strong>
+        <ul style="margin-top: 5px; padding-left: 20px; color: #555;">
+          <li>500 MVA, 765/400/33 kV Single Phase ICT</li>
+          <li>315 MVA, 400/27.5 kV Single Phase GT</li>
+          <li>315 MVA, 400/138/34.5 kV Three Phase ICT (Plugin type bushing)</li>
+          <li>300 MVA, 220/33/33 kV Three Phase PT (Dual LV)</li>
+          <li>160 MVA, 220/33 kV Three Phase PT (Short circuit tested)</li>
+          <li>120 MVA, 33/11 kV Three Phase GT</li>
+        </ul>
+      </li>
     </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
