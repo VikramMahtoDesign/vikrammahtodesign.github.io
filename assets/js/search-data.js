@@ -246,6 +246,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/post-bibliography/";
           
         },
+      },{id: "post-validating-roark-s-formulas-for-stress-and-strain-fixed-rectangular-plate-vs-ansys",
+        
+          title: "Validating Roark’s Formulas for Stress and Strain - Fixed Rectangular Plate vs. ANSYS...",
+        
+        description: "Comparing analytical results from Roark&#39;s formulas against Finite Element Analysis (FEA) simulations in ANSYS.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/roarks-formulas/";
+          
+        },
       },{id: "post-a-post-with-jupyter-notebook",
         
           title: "a post with jupyter notebook",
@@ -343,17 +354,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-placeholder-title",
-        
-          title: "Placeholder Title",
-        
-        description: "Content coming soon.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/roarks-formulas/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
