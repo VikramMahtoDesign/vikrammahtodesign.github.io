@@ -31,16 +31,15 @@ I work on Power Transformer Tank and External Design (up to 765 kV), focusing on
       <ul style="list-style-type: none; padding-left: 0;">
         <li>• ANSYS Workbench</li>
         <li>• Creo Simulate</li>
-        <li>• Hypermesh</li>
+    
       </ul>
     </div>
 
     <div class="col-sm-4">
       <h5 class="font-weight-bold">Automation</h5>
       <ul style="list-style-type: none; padding-left: 0;">
-        <li>• C# (NX Open)</li>
-        <li>• Creo Toolkit (C++)</li>
-        <li>• Pro/PROGRAM</li>
+        <li>• NX : NX Open(C#)</li>
+        <li>• Creo : Creo Toolkit (C++), Pro/PROGRAM</li>
       </ul>
     </div>
   </div>
