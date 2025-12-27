@@ -143,7 +143,7 @@ description: Thoughts on Engineering, Automation, and Life.
     <a href="{% post_url 2024-01-15-lifting-analysis %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
-          <img src="{{ '/assets/img/lifting-analysis/05-remote-point-setup.jpg' | relative_url }}" alt="FEA">
+          <img src="{{ '/assets/img/lifting-analysis/preview.jpg' | relative_url }}" alt="FEA">
         </div>
         <div class="blog-body">
           <span class="blog-category">ANSYS / FEA</span>
