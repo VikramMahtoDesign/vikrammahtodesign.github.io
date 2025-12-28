@@ -1,3 +1,6 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 title: Vikram Mahto | Mechanical Design Engineer
 first_name: Vikram
 middle_name: ""
@@ -13,29 +16,37 @@ baseurl: ""
 last_updated: false
 back_to_top: true
 
-# --- Theme Settings ---
+# -----------------------------------------------------------------------------
+# Theme Settings
+# -----------------------------------------------------------------------------
 repo_theme_light: default
 repo_theme_dark: dark
 navbar_fixed: true
 footer_fixed: true
 max_width: 930px
 
-# --- Navigation Menu ---
+# -----------------------------------------------------------------------------
+# Navigation Menu (Matches your _pages folder)
+# -----------------------------------------------------------------------------
 header_pages:
   - about.md
   - blog.md
+  - projects.md
   - experience.md
   - learning.md
-  - projects.md
 
-# --- Features ---
+# -----------------------------------------------------------------------------
+# Features & Analytics
+# -----------------------------------------------------------------------------
 serve_og_meta: false
 serve_schema_org: false
 google_analytics:
 google_site_verification:
 bing_site_verification:
 
-# --- Blog Settings ---
+# -----------------------------------------------------------------------------
+# Blog Settings
+# -----------------------------------------------------------------------------
 blog_name: al-folio
 blog_description: thoughts on engineering and design
 permalink: /blog/:year/:title/
@@ -49,7 +60,9 @@ collections:
   projects:
     output: true
 
-# --- Jekyll Settings ---
+# -----------------------------------------------------------------------------
+# Jekyll & Markdown Settings
+# -----------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -109,7 +122,9 @@ defaults:
 sass:
   style: compressed
 
-# --- Image Settings ---
+# -----------------------------------------------------------------------------
+# Image & Performance
+# -----------------------------------------------------------------------------
 imagemagick:
   enabled: true
   widths:
@@ -129,7 +144,9 @@ imagemagick:
 
 lazy_loading_images: true
 
-# --- Feature Toggles ---
+# -----------------------------------------------------------------------------
+# Feature Toggles
+# -----------------------------------------------------------------------------
 enable_google_analytics: false
 enable_cronitor_analytics: false
 enable_pirsch_analytics: false
@@ -146,7 +163,9 @@ enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false
 
-# --- Resume Data ---
+# -----------------------------------------------------------------------------
+# Resume Data
+# -----------------------------------------------------------------------------
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json
@@ -165,7 +184,9 @@ jsonresume:
   - interests
   - references
 
-# --- Standard Library (Essentials) ---
+# -----------------------------------------------------------------------------
+# Required Libraries (Essential for theme to work)
+# -----------------------------------------------------------------------------
 third_party_libraries:
   download: false
   google_fonts:
