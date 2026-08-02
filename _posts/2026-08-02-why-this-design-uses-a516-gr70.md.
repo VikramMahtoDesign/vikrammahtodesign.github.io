@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 'Why this design uses A516 Gr70 instead of IS 2062 — notes to self'
-date: 2026-08-02 12:00:00
-categories: [Mechanical Design, Materials]
-tags: [ASTM A516, IS 2062, Pressure Vessels, ASME, Materials]
-giscus_comments: true
-toc:
-  sidebar: left
+title: "Why this design uses A516 Gr70 instead of IS 2062 — notes to self"
+date: 2026-08-02
+permalink: /blog/why-this-design-uses-a516-gr70/
+description: Notes comparing IS 2062 E250 and ASTM A516 Grade 70 for low-temperature pressure vessel design, including ASME UCS-66 exemption rules.
+tags: materials astm-a516 is-2062 pressure-vessels asme
+categories: engineering
 ---
 
 This is the first design where I've had to move away from IS 2062 E250, which is basically muscle memory for me at this point — it's what I've used on every job so far, and it's sitting in every stockyard back home. So when I saw ASTM A516 Grade 70 called out here, my first honest reaction was "why not just use what I already know and can get easily." Turns out there's a real reason, and it's not about sourcing at all. Writing it down here so that the next time I open A516 or A6, I'm not starting from zero again.
@@ -22,7 +21,7 @@ A516 says its whole purpose right in the scope: it's meant for **welded pressure
 * It's built to pair with **Charpy V-notch testing (Supplementary Requirement S5)** — something you pull in when the design temperature makes brittle fracture a genuine concern.
 * The heat treatment rules are tied to the same worry. Anything **over 40 mm thick has to be normalized, full stop, no option to skip it.** Under 40 mm, as-rolled is fine by default — but the moment you invoke Charpy testing, normalizing comes back into the picture unless you specifically say otherwise.
 
-So the chain of logic is: the site's working temperature creates a real risk of brittle fracture at lower service temps &rarr; you need a plate spec that actually has a toughness pathway built in, not bolted on &rarr; that's A516, not IS 2062.
+So the chain of logic is: the site's working temperature creates a real risk of brittle fracture at lower service temps -> you need a plate spec that actually has a toughness pathway built in, not bolted on -> that's A516, not IS 2062.
 
 I want to be fair to IS 2062 here though — it's not that you *can't* get impact-tested IS 2062 plate, people do call it out on Indian jobs too. It's more that A516 is built around this from the ground up — the chemistry, the normalizing thresholds, the whole S5 pathway — so it's just a more rigorous and traceable way to handle it when low working temperature is an actual design input, not an afterthought.
 
