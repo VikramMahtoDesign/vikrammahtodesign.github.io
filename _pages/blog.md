@@ -140,7 +140,7 @@ description: Thoughts on Engineering, Automation, and Life.
 <div class="row">
 
 <div class="col-md-4 mb-4">
-  <a href="{{ '/blog/why-this-design-uses-a516-gr70/' | relative_url }}" style="text-decoration: none;">
+  <a href="{% post_url 2024-01-15-lifting-analysis %}" style="text-decoration: none;">
     <div class="blog-card">
       <div class="blog-img-container">
         <img src="{{ '/assets/img/a516-gr70-preview.jpg' | relative_url }}" alt="A516 Gr70">
