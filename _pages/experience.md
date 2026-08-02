@@ -58,6 +58,40 @@ nav_order: 1
   }
 </style>
 
+<!-- Siemens Energy -->
+<div class="card experience-card mt-4 p-3 shadow-sm" style="border-radius: 12px; border: 2px solid #007bff;">
+  <div class="card-body p-0">
+    
+    <div class="row align-items-center mb-3">
+      <div class="col-md-8 d-flex align-items-center">
+        <a href="https://www.siemens-energy.com" target="_blank" style="margin-right: 15px;">
+          <img src="{{ '/assets/img/Siemens.jpg' | relative_url }}" alt="Siemens Energy" style="height: 50px; width: auto; object-fit: contain;">
+        </a>
+        <a href="https://www.siemens-energy.com" target="_blank" style="text-decoration: none;">
+          <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">Siemens Energy</span>
+        </a>
+      </div>
+      
+      <div class="col-md-4 text-md-right mt-2 mt-md-0">
+        <h5 class="mb-0" style="color: #6c757d; font-size: 16px; font-weight: 500;">Mechanical Design Engineer</h5>
+      </div>
+    </div>
+
+    <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
+
+    <ul class="mt-3 mb-3" style="font-size: 14px; line-height: 1.6; color: #333;">
+      <li>[Add your key responsibilities / projects here]</li>
+      <li>[Add details on mechanical design, tools, or methodologies]</li>
+    </ul>
+
+    <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
+      <i class="fas fa-calendar-alt mr-2"></i> May 2026 - Present &nbsp;|&nbsp; 
+      <i class="fas fa-map-marker-alt mr-2 ml-2"></i> Navi Mumbai, India
+    </div>
+
+  </div>
+</div>
+
 <div class="card experience-card mt-4 p-3 shadow-sm" style="border-radius: 12px; border: 2px solid #007bff;">
   <div class="card-body p-0">
     
