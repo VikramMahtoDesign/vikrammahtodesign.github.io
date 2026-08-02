@@ -79,9 +79,7 @@ nav_order: 1
 
     <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
 
-    <ul class="mt-3 mb-3" style="font-size: 14px; line-height: 1.6; color: #333;">
-      <li>[Add your key responsibilities / projects here]</li>
-      <li>[Add details on mechanical design, tools, or methodologies]</li>
+   
     </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
