@@ -80,7 +80,7 @@ nav_order: 1
     <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
 
    
-    </ul>
+   
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
       <i class="fas fa-calendar-alt mr-2"></i> May 2026 - Present &nbsp;|&nbsp; 
