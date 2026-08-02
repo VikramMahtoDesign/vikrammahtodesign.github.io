@@ -62,10 +62,9 @@ nav_order: 1
   <div class="card-body p-0">
     
     <div class="row align-items-center mb-3">
-      
       <div class="col-md-8 d-flex align-items-center">
         <a href="https://www.cgglobal.com" target="_blank" style="margin-right: 15px;">
-        <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain;">
+          <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain;">
         </a>
         <a href="https://www.cgglobal.com" target="_blank" style="text-decoration: none;">
           <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">CG Power and Industrial Solutions Limited.</span>
@@ -79,6 +78,14 @@ nav_order: 1
 
     <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
 
+    <ul class="mt-3 mb-3" style="font-size: 14px; line-height: 1.6; color: #333;">
+      <li>Engineered <strong>Power Transformer tanks</strong> and external assemblies including conservator, cooler bank assembly, and piping systems.</li>
+      <li>Interpreted customer technical requirements and prepared comprehensive engineering drawings and documentation in accordance with project specifications.</li>
+      <li>Completed intensive <strong>3P (Production Preparation Process) training</strong> with <i>Shingijutsu USA</i> consultants as part of the T5 greenfield plant execution.</li>
+      <li>Developed <strong>Kaizen proposals</strong> for testing area optimization, identifying key solutions to reduce preparation time and improve workflow efficiency.</li>
+      <li>Applied <strong>Lean Manufacturing principles</strong> (Standard Work Combination Sheets, Spaghetti Plots) to eliminate process waste in testing operations.</li>
+      <li><strong>Tools & Methodologies:</strong> Creo Parametric, Lean Manufacturing, 3P, Kaizen, Standard Work, Spaghetti Diagrams.</li>
+    </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
       <i class="fas fa-calendar-alt mr-2"></i> Dec 2025 - Present &nbsp;|&nbsp; 
