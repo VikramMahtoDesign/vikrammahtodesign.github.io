@@ -83,12 +83,12 @@ nav_order: 1
       <li>Interpreted customer technical requirements and prepared comprehensive engineering drawings and documentation in accordance with project specifications.</li>
       <li>Completed intensive <strong>3P (Production Preparation Process) training</strong> with <i>Shingijutsu USA</i> consultants as part of the T5 greenfield plant execution.</li>
       <li>Developed <strong>Kaizen proposals</strong> for testing area optimization, identifying key solutions to reduce preparation time and improve workflow efficiency.</li>
-      <li>Applied <strong>Lean Manufacturing principles</strong> (Standard Work Combination Sheets, Spaghetti Plots) to eliminate process waste in testing operations.</li>
-      <li><strong>Tools & Methodologies:</strong> Creo Parametric, Lean Manufacturing, 3P, Kaizen, Standard Work, Spaghetti Diagrams.</li>
+      <li>Applied <strong>Lean Manufacturing principles</strong> to eliminate process waste in testing operations.</li>
+      <li><strong>Tools & Methodologies:</strong> Siemens NX, Lean Manufacturing, 3P, Kaizen.</li>
     </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
-      <i class="fas fa-calendar-alt mr-2"></i> Dec 2025 - Present &nbsp;|&nbsp; 
+      <i class="fas fa-calendar-alt mr-2"></i> Dec 2025 - May 2026 &nbsp;|&nbsp; 
       <i class="fas fa-map-marker-alt mr-2 ml-2"></i> Bhopal, India
     </div>
 
