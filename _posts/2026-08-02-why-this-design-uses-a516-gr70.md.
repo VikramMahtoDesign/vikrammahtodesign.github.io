@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Why this design uses A516 Gr70 instead of IS 2062 — notes to self
+title: "Why this design uses A516 Gr70 instead of IS 2062 — notes to self"
 date: 2026-08-02
 permalink: /blog/why-this-design-uses-a516-gr70/
-description: Notes comparing IS 2062 E250 and ASTM A516 Grade 70 for low-temperature pressure vessel design, including ASME UCS-66 exemption rules.
+description: Notes comparing IS 2062 E250 and ASTM A516 Grade 70 for low-temperature pressure vessel design.
 tags: materials astm-a516 is-2062 pressure-vessels asme
 categories: engineering
 ---
@@ -18,8 +18,8 @@ IS 2062 is a solid, general-purpose structural grade. It gives you strength and 
 
 A516 says its whole purpose right in the scope: it's meant for **welded pressure vessels where improved notch toughness matters.** That single line explains basically everything else in the spec:
 
-* It's built to pair with **Charpy V-notch testing (Supplementary Requirement S5)** — something you pull in when the design temperature makes brittle fracture a genuine concern.
-* The heat treatment rules are tied to the same worry. Anything **over 40 mm thick has to be normalized, full stop, no option to skip it.** Under 40 mm, as-rolled is fine by default — but the moment you invoke Charpy testing, normalizing comes back into the picture unless you specifically say otherwise.
+- It's built to pair with **Charpy V-notch testing (Supplementary Requirement S5)** — something you pull in when the design temperature makes brittle fracture a genuine concern.
+- The heat treatment rules are tied to the same worry. Anything **over 40 mm thick has to be normalized, full stop, no option to skip it.** Under 40 mm, as-rolled is fine by default — but the moment you invoke Charpy testing, normalizing comes back into the picture unless you specifically say otherwise.
 
 So the chain of logic is: the site's working temperature creates a real risk of brittle fracture at lower service temps -> you need a plate spec that actually has a toughness pathway built in, not bolted on -> that's A516, not IS 2062.
 
@@ -31,11 +31,11 @@ I want to be fair to IS 2062 here though — it's not that you *can't* get impac
 
 *(Going off memory and past project experience here — should double check against whatever the current revision says if I ever need exact numbers for a real calc.)*
 
-* **Yield strength:** 250 MPa min (drops a bit for thicker sections)
-* **Tensile strength:** 410 MPa min
-* **Elongation:** roughly 23% min
-* **Composition:** Carbon around 0.22% max, Mn up to 1.5%, S & P capped around 0.045% each — depends on which quality grade (A/B/C/BR)
-* **Heat treatment / Toughness:** No mandatory normalizing, no toughness pathway of its own — it's just a good general structural grade
+- **Yield strength:** 250 MPa min (drops a bit for thicker sections)
+- **Tensile strength:** 410 MPa min
+- **Elongation:** roughly 23% min
+- **Composition:** Carbon around 0.22% max, Mn up to 1.5%, S & P capped around 0.045% each — depends on which quality grade (A/B/C/BR)
+- **Heat treatment / Toughness:** No mandatory normalizing, no toughness pathway of its own — it's just a good general structural grade
 
 ---
 
@@ -55,21 +55,24 @@ Pulling this straight from the A516/A516M-04 document rather than trusting memor
 > **Note on Elongation:** Two elongation columns tripped me up for a second — it's not a contradiction, ASTM just reports elongation against two different gauge lengths depending on what the order specifies. A "17%" and a "21%" can both be correct for the same plate.
 
 ### Chemistry for Grade 70 (up to 1/2 in [12.5 mm] thick)
-* **Carbon:** max 0.27% (climbs to 0.31% once you're past 8 in — thicker section cools slower, so the chemistry has to compensate)
-* **Manganese:** 0.85–1.20%
-* **Phosphorus & Sulfur:** both capped at 0.035%
-* **Silicon:** 0.15–0.40%
+
+- **Carbon:** max 0.27% (climbs to 0.31% once you're past 8 in — thicker section cools slower, so the chemistry has to compensate)
+- **Manganese:** 0.85–1.20%
+- **Phosphorus & Sulfur:** both capped at 0.035%
+- **Silicon:** 0.15–0.40%
 
 ### Heat treatment (Section 5) — the part that actually matters here
-* **Up to 1.50 in [40 mm]:** As-rolled by default, can be ordered normalized or stress relieved.
-* **Over 1.50 in [40 mm]:** Must be normalized. No way around it.
-* **Impact-tested plate:** If Charpy testing gets invoked on anything 1.5 in or under, it gets normalized too, unless the design specifically says otherwise.
+
+- **Up to 1.50 in [40 mm]:** As-rolled by default, can be ordered normalized or stress relieved.
+- **Over 1.50 in [40 mm]:** Must be normalized. No way around it.
+- **Impact-tested plate:** If Charpy testing gets invoked on anything 1.5 in or under, it gets normalized too, unless the design specifically says otherwise.
 
 ### Supplementary requirements worth knowing about
-* **S5:** Charpy V-Notch Impact Test — the core requirement that proves the toughness promised by the scope statement.
-* **S1:** Vacuum treatment.
-* **S8 / S11 / S12:** Ultrasonic examination, depending on method (A435 straight-beam, A577 angle-beam, A578 for special/clad plate).
-* **S9:** Magnetic particle examination.
+
+- **S5:** Charpy V-Notch Impact Test — the core requirement that proves the toughness promised by the scope statement.
+- **S1:** Vacuum treatment.
+- **S8 / S11 / S12:** Ultrasonic examination, depending on method (A435 straight-beam, A577 angle-beam, A578 for special/clad plate).
+- **S9:** Magnetic particle examination.
 
 > Plain A516 with nothing else called out is a fairly ordinary plate. The toughness story only really kicks in once S5 gets pulled in, and normalizing along with it.
 
@@ -83,12 +86,12 @@ That number comes from **ASME Section VIII Div. 1, UCS-66** — the impact test 
 
 1. **Identify MDMT:** -30°C (approx. -22°F) becomes your Minimum Design Metal Temperature — that's the input UCS-66 wants.
 2. **Determine Curve:** Your plate's condition decides which curve you're on:
-   * **As-rolled A516 Gr.70** sits on **Curve B**.
-   * **Normalized A516 Gr.70** jumps to **Curve D**.
+   - **As-rolled A516 Gr.70** sits on **Curve B**.
+   - **Normalized A516 Gr.70** jumps to **Curve D**.
    *(That's a big jump — Curve D tolerates much colder MDMTs before impact testing kicks in).*
 3. **Plot Governing Thickness:** You plot governing thickness (horizontal axis) against MDMT (vertical axis) on the actual UCS-66 figure.
-   * **Above the line:** Exempt, no impact testing needed.
-   * **Below the line:** Impact testing is mandatory.
+   - **Above the line:** Exempt, no impact testing needed.
+   - **Below the line:** Impact testing is mandatory.
 4. **Evaluate at -30°C:** As-rolled (Curve B) plate will very likely fall below the line at any real tank-shell thickness, meaning Charpy testing becomes mandatory. Normalized (Curve D) plate, at more moderate thicknesses, can often stay exempt down into the -45°C to -50°C range — comfortably covering -30°C without needing impact testing at all.
 5. **Escape Routes:** If you land below the line anyway, there are two escape routes before you're forced into testing: a PWHT-based temperature credit (UCS-66(a)/(b)), and a reduced-stress-ratio allowance (UCS-66.1) if the material's running well under its full allowable stress.
 6. **Required Testing:** If testing ends up unavoidable, that's what **S5** is actually for — Charpy V-notch tested at (or near) the MDMT, with acceptance criteria from UG-84 based on yield strength and specimen size, not a flat number.
@@ -106,22 +109,25 @@ This one took a bit to get my head around, mostly because IS 2062 doesn't work t
 A few things from A6/A6M worth keeping in mind:
 
 ### Definitions (Section 3) that change how you read a drawing
-* **Plates vs. Flats:** Split by a thickness/width matrix — over 8 in wide and 0.230 in thick, or over 48 in wide and 0.180 in thick, is a plate; below that it's a flat, which has its own tolerance rules.
-* **Edge Types:** Mill edge, universal mill edge, sheared edge, gas cut edge, and special cut edge are all separately defined, and which one you've got decides which tolerance table applies.
-* **Steel Types:** Old terms like rimmed / semi-killed / killed / capped steel are defined too — good to recognize if it ever shows up on an older reference drawing.
+
+- **Plates vs. Flats:** Split by a thickness/width matrix — over 8 in wide and 0.230 in thick, or over 48 in wide and 0.180 in thick, is a plate; below that it's a flat, which has its own tolerance rules.
+- **Edge Types:** Mill edge, universal mill edge, sheared edge, gas cut edge, and special cut edge are all separately defined, and which one you've got decides which tolerance table applies.
+- **Steel Types:** Old terms like rimmed / semi-killed / killed / capped steel are defined too — good to recognize if it ever shows up on an older reference drawing.
 
 ### Section 9, plate conditioning — numbers to remember
-* Grinding to clean up surface defects can't take more than **7% off nominal thickness** (for weight-ordered plate) or drop below **minimum permissible thickness** (for thickness-ordered plate).
-* Any chipped, ground, or gouged area is capped at **2% of the total surface area** per piece.
-* Weld repair needs a qualified WPS, AWS-spec electrodes, low-hydrogen for SMAW, and inspection both before and after.
+
+- Grinding to clean up surface defects can't take more than **7% off nominal thickness** (for weight-ordered plate) or drop below **minimum permissible thickness** (for thickness-ordered plate).
+- Any chipped, ground, or gouged area is capped at **2% of the total surface area** per piece.
+- Weld repair needs a qualified WPS, AWS-spec electrodes, low-hydrogen for SMAW, and inspection both before and after.
 
 ### Annex A1, permitted variation tables
+
 Thickness, width, length, weight, camber, flatness, sweep, cross-section — every product type A6 covers gets its own table. Next step is finding the specific thickness/flatness table for whatever plate thickness the tank design actually settles on, since that's what feeds fit-up tolerance for fabrication.
 
 ---
 
 ## Where I've landed
 
-This was never really an IS-vs-ASTM sourcing question. The working temperature on this design pushes brittle fracture into something that actually has to be engineered around, and A516 is built for exactly that — the scope, the Charpy pathway, the mandatory normalizing past 40 mm. IS 2062 is a good grade, but it just doesn't have that architecture. A6/A6M is the rulebook sitting underneath, handling dimensions and quality, the same job A20/A20M does for the plate spec itself. 
+This was never really an IS-vs-ASTM sourcing question. The working temperature on this design pushes brittle fracture into something that actually has to be engineered around, and A516 is built for exactly that — the scope, the Charpy pathway, the mandatory normalizing past 40 mm. IS 2062 is a good grade, but it just doesn't have that architecture. A6/A6M is the rulebook sitting underneath, handling dimensions and quality, the same job A20/A20M does for the plate spec itself.
 
 And the actual number that decides whether impact testing is required at all doesn't come from A516 at all — it comes from ASME UCS-66, plotting MDMT against governing thickness on the right curve (B for as-rolled, D for normalized). That's the piece that turns "-30°C site" into an actual material decision.
