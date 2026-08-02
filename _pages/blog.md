@@ -140,20 +140,20 @@ description: Thoughts on Engineering, Automation, and Life.
 <div class="row">
 
 <div class="col-md-4 mb-4">
-    <a href="{% post_url 2026-08-02-why-this-design-uses-a516-gr70 %}" style="text-decoration: none;">
-      <div class="blog-card">
-        <div class="blog-img-container">
-          <img src="{{ '/assets/img/a516-gr70-preview.jpg' | relative_url }}" alt="A516 Gr70">
-        </div>
-        <div class="blog-body">
-          <span class="blog-category">MATERIALS</span>
-          <h3 class="blog-title">Why This Design Uses A516 Gr70 Instead of IS 2062</h3>
-          <span class="blog-date">August 2026</span>
-          <span class="blog-link">Read Article <i class="fas fa-arrow-right"></i></span>
-        </div>
+  <a href="{{ '/blog/why-this-design-uses-a516-gr70/' | relative_url }}" style="text-decoration: none;">
+    <div class="blog-card">
+      <div class="blog-img-container">
+        <img src="{{ '/assets/img/a516-gr70-preview.jpg' | relative_url }}" alt="A516 Gr70">
       </div>
-    </a>
-  </div>
+      <div class="blog-body">
+        <span class="blog-category">MATERIALS</span>
+        <h3 class="blog-title">Why This Design Uses A516 Gr70 Instead of IS 2062</h3>
+        <span class="blog-date">August 2026</span>
+        <span class="blog-link">Read Article <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </div>
+  </a>
+</div>
 
   <div class="col-md-4 mb-4">
     <a href="{% post_url 2024-01-15-lifting-analysis %}" style="text-decoration: none;">
