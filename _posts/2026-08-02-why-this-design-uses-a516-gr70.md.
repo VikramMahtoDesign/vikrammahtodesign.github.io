@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why this design uses A516 Gr70 instead of IS 2062 — notes to self"
+title: 'Why this design uses A516 Gr70 instead of IS 2062 — notes to self'
 date: 2026-08-02 12:00:00
 categories: [Mechanical Design, Materials]
 tags: [ASTM A516, IS 2062, Pressure Vessels, ASME, Materials]
@@ -22,7 +22,7 @@ A516 says its whole purpose right in the scope: it's meant for **welded pressure
 * It's built to pair with **Charpy V-notch testing (Supplementary Requirement S5)** — something you pull in when the design temperature makes brittle fracture a genuine concern.
 * The heat treatment rules are tied to the same worry. Anything **over 40 mm thick has to be normalized, full stop, no option to skip it.** Under 40 mm, as-rolled is fine by default — but the moment you invoke Charpy testing, normalizing comes back into the picture unless you specifically say otherwise.
 
-So the chain of logic is: the site's working temperature creates a real risk of brittle fracture at lower service temps $\rightarrow$ you need a plate spec that actually has a toughness pathway built in, not bolted on $\rightarrow$ that's A516, not IS 2062.
+So the chain of logic is: the site's working temperature creates a real risk of brittle fracture at lower service temps &rarr; you need a plate spec that actually has a toughness pathway built in, not bolted on &rarr; that's A516, not IS 2062.
 
 I want to be fair to IS 2062 here though — it's not that you *can't* get impact-tested IS 2062 plate, people do call it out on Indian jobs too. It's more that A516 is built around this from the ground up — the chemistry, the normalizing thresholds, the whole S5 pathway — so it's just a more rigorous and traceable way to handle it when low working temperature is an actual design input, not an afterthought.
 
@@ -82,7 +82,7 @@ An important correction to how I was thinking about this: A516 itself never stat
 
 That number comes from **ASME Section VIII Div. 1, UCS-66** — the impact test exemption curves. Here's how it actually works, worked through for something like a -30°C site:
 
-1. **Identify MDMT:** -30°C ($\approx$ -22°F) becomes your Minimum Design Metal Temperature — that's the input UCS-66 wants.
+1. **Identify MDMT:** -30°C (approx. -22°F) becomes your Minimum Design Metal Temperature — that's the input UCS-66 wants.
 2. **Determine Curve:** Your plate's condition decides which curve you're on:
    * **As-rolled A516 Gr.70** sits on **Curve B**.
    * **Normalized A516 Gr.70** jumps to **Curve D**.
